@@ -1,0 +1,31 @@
+.Cabecalho {
+  display: flex;
+  justify-content: space-between;
+  background-color: #777;
+}
+
+.titulo {
+  margin-left: 25px;
+  align-self: center;
+  justify-self: center;
+}
+
+.titulo h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+  flex-grow: 1;
+}
+
+.links a {
+  margin: 10px 20px;
+  padding: 10px 12px;
+  background-color: #ccc;
+  color: #222;
+  border-radius: 5px;
+}
