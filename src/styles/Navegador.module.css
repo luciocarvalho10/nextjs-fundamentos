@@ -1,0 +1,12 @@
+.link {
+  align-self: center;
+  margin: 20px 0px;
+}
+
+.link a {
+  margin: 10px 0px 10px 20px;
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #222;
+  border-radius: 5px;
+}

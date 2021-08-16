@@ -13,6 +13,7 @@
 .titulo h1 {
   margin: 0;
   font-size: 1.6rem;
+  color: #222;
 }
 
 .links {
@@ -20,12 +21,4 @@
   justify-content: flex-end;
   margin-right: 25px;
   flex-grow: 1;
-}
-
-.links a {
-  margin: 10px 20px;
-  padding: 10px 12px;
-  background-color: #ccc;
-  color: #222;
-  border-radius: 5px;
 }

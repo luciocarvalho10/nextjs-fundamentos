@@ -1,4 +1,5 @@
 import styles from '../styles/Cabecalho.module.css'
+import Navegador from './Navegador'
 export default function Cabecalho(props) {
   return (
     <header className={styles.Cabecalho}>
@@ -8,10 +9,10 @@ export default function Cabecalho(props) {
         </h1>
       </div>
       <div className={styles.links}>
-        <a href="/">Início</a>
-        <a href="/estilos">Estilos</a>
-        <a href="/exemplo">Exemplo</a>
-        <a href="/linkc">Link</a>
+        <Navegador texto="Início" destino="/" />
+        <Navegador texto="Estilos" destino="/estilos" />
+        <Navegador texto="Exemplo" destino="/exemplo" />
+        <Navegador texto="Link" destino="/linkc" />
       </div>
     </header>
   )
