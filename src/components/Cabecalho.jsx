@@ -13,6 +13,7 @@ export default function Cabecalho(props) {
         <Navegador texto="Estilos" destino="/estilos" />
         <Navegador texto="Exemplo" destino="/exemplo" />
         <Navegador texto="Link" destino="/linkc" />
+        <Navegador texto="Código" destino="/cliente/RJ/1985" />
       </div>
     </header>
   )
