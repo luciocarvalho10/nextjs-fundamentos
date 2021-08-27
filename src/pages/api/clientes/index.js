@@ -1,3 +1,4 @@
+// http://localhost:3000/api/clientes
 export default function handler(req, res) {
   if (req.method === "GET") {
     handlerGet(req, res)
